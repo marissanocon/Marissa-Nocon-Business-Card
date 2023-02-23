@@ -68,20 +68,19 @@ h2{
 }
 
 .icon-container{
-  width: ;
+  width: 100px;
   margin-top: 40px;
   margin-left: 60px;
   display:grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   grid-template-areas:
-  "a"
-  "b"
-  "c";
-  grid-gap: 1px;
-  width: 1in;
+  "a" "b" "c";
+  grid-gap: 20px;
+  width: 300px;
 
 }
+
 
 /* .circle{
   background-image: url("/assets/circle.svg");
